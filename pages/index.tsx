@@ -8,7 +8,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Are you tibas?</title>
         <meta name="description" content="Internal tibas labs authentication factory" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <HomeTemplate />
