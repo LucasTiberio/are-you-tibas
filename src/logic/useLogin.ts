@@ -14,7 +14,7 @@ export interface iLoginResponse {
 const useLogin = function() {
     const [isLoading, setIsLoading] = useState(false);
 
-    const loginFunction = async (login: string, password: string, successFunction: (data: iLoginResponse) => void, errorFunction: (error: any) => void) => {
+    const loginFunction = async (login: string, password: string, successFunction: (data: iLoginResponse) => void, errorFunction: (error: unknown) => void) => {
         try {
             setIsLoading(true);
     

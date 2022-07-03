@@ -41,6 +41,8 @@ const LoginForm = () => {
         
         const error = (error: unknown) => {
             console.log('error', error)
+
+            formikHelpers.resetForm()
             setShowPassword(false)
         }
 
